@@ -419,7 +419,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url=f"t.me/{BOT_USERNAME}?startgroup=new"),
-                        ]
+                        ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "Source Developer"), url=f"t.me/QDevQ"),
                         ]
